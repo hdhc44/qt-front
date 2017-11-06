@@ -71,4 +71,8 @@ body {
     .card {
         flex-basis: 100% auto;
     }
+    .card-content {
+        padding: 20px 10px 0px 10px !important;
+    }
+    
 }
