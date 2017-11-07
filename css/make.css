@@ -27,7 +27,8 @@ body{
 .quiz.card{
     width: 450px;
     height: 230px;  
-    padding: 10px;  
+    padding: 10px;
+    margin-bottom: 20px;
 }
 .answer{
     margin: 10px;
