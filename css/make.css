@@ -63,7 +63,12 @@ body{
     outline: none;
     border: none;
 }
-
-@media screen and (max-width:420px){
-    
+@media screen and (max-width:750px){
+    .title.card{
+        width: 350px;
+    }
+    .quiz.card{
+        width: 350px;
+        height: 330px;  
+    }
 }
