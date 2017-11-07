@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'nanumsquareroundotflight';
+    font-family: 'nanumsquareroundotflight',sans-serif;
     src: url('nanumsquareroundotfl-webfont.woff2') format('woff2'),
          url('nanumsquareroundotfl-webfont.woff') format('woff');
     font-weight: normal;

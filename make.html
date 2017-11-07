@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/font/stylesheet.css">
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="stylesheet" href="./css/make.css">
     <title>Make</title>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(function ($el) {
+                    $el.addEventListener('click', function () {
+                        var target = $el.dataset.target;
+                        var $target = document.getElementById(target);
+                        $el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
 </head>
+
 <body>
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html">
+                <img src="./img/QuizTree@2.png" alt="QuizTree">
+                <h1 style="margin-left:10px;font-size:24px">QuizTree</h1>
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                        </p>
+                        <p class="control">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="wrapper">
+            <h1 class="title">퀴즈를 만드세요!</h1>
+            <div class="title card">
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-large" type="text" placeholder="퀴즈 제목">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="퀴즈 설명">
+                    </div>
+                </div>
+            </div>
+            <div class="quiz card">
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-medium" type="text" placeholder="질문을 입력하세요">
+                    </div>
+                </div>
+                <div class="answer">
+                    <h3 class="title is-4">정답</h3>
+                    <div class="control">
+                        <label class="radio">
+                            <input type="radio" name="answer"> A
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer"> B
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer"> C
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer"> D
+                        </label>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-small" type="text" placeholder="옵션 A">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-small" type="text" placeholder="옵션 B">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-small" type="text" placeholder="옵션 C">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-small" type="text" placeholder="옵션 D">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="button" id="addBtn">
+        <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
     
 </body>
+
 </html>
