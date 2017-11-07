@@ -43,13 +43,31 @@
             </div>
         </div>
         <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <input class="input" type="text" placeholder="Search" id="searchbar">
+            </div>
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="field is-grouped">
                         <p class="control">
-                            <input type="submit" class="button" value="Submit">
+                            <a class="bd-tw-button button" target="_blank" href="./mypage.html">
+                                <span class="icon">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    JungWoo
+                                </span>
+                            </a>
                         </p>
                         <p class="control">
+                            <button class="bd-tw-button button">
+                                <span class="icon">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    Logout
+                                </span>
+                            </button>
                         </p>
                     </div>
                 </div>
@@ -57,7 +75,7 @@
         </div>
     </nav>
     <div class="container">
-        <div class="wrapper">
+        <div class="wrapper" id="wrapper">
             <h1 class="title">퀴즈를 만드세요!</h1>
             <div class="title card">
                 <div class="field">
@@ -127,13 +145,18 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+        <div class="add">
+            <button id="addBtn">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </button>
         </div>
     </div>
-    <button class="button" id="addBtn">
-        <i class="fa fa-plus" aria-hidden="true"></i>
+    <button class="button" id="sendBtn">
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
     </button>
-    
+
+    <script src="./js/make.js"></script>
 </body>
 
 </html>
