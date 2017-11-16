@@ -22,21 +22,21 @@
             height: 70%;
         }
     </style>
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function () {
-                var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-                if ($navbarBurgers.length > 0) {
-                    $navbarBurgers.forEach(function ($el) {
-                        $el.addEventListener('click', function () {
-                            var target = $el.dataset.target;
-                            var $target = document.getElementById(target);
-                            $el.classList.toggle('is-active');
-                            $target.classList.toggle('is-active');
-                        });
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(function ($el) {
+                    $el.addEventListener('click', function () {
+                        var target = $el.dataset.target;
+                        var $target = document.getElementById(target);
+                        $el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
                     });
-                }
-            });
-        </script>
+                });
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -59,7 +59,26 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="field is-grouped">
-
+                        <p class="control">
+                            <a class="bd-tw-button button" target="_blank" href="./mypage.html">
+                                <span class="icon">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    JungWoo
+                                </span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <button class="bd-tw-button button">
+                                <span class="icon">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    Logout
+                                </span>
+                            </button>
+                        </p>
                     </div>
                 </div>
             </div>
