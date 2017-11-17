@@ -45,7 +45,7 @@ body{
     align-items: center;
 }
 .title.is-4{
-    margin: 5px;
+    margin: 0px;
 }
 .column{
     padding-top: 8px;
@@ -100,9 +100,6 @@ button{
 }
 @media screen and (max-width:750px){
     .wrapper{
-        top: 30px;
-    }
-    .add{
         top: 30px;
     }
     .title.card{
