@@ -64,3 +64,10 @@
 .custom{
     border-radius: 25px!important;    
 }
+.tag{
+    margin: 3px;
+}
+.substance{
+    display: block;
+    height: 43px;
+}
