@@ -99,17 +99,6 @@ body {
 }
 
 
-/* .control.has-icon .input{
-    -webkit-transition: color 0.5s;   
-}
-.control.has-icon .input:focus + .icon{
-    color: #36afff!important;
-} */
-
-
-
-
-
 @media screen and (max-width:800px) {
     #background-card {
         width: 390px;

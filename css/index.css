@@ -8,6 +8,7 @@ body {
 
 .navbar-start input {
     width: 400px;
+    border-radius: 25px;
 }
 
 .container {
@@ -31,9 +32,12 @@ body {
     width: 100%;
     padding: 20px;
 }
+
 .card{
     width: 380px;
     margin: 10px;
+    border-radius: 10px;
+    overflow-x: hidden;
 }
 .card-content{
     padding: 0px!important;
@@ -45,6 +49,9 @@ body {
 }
 .card-footer-item i.fa {
     margin-right: 10px;
+}
+.custom{
+    border-radius: 25px!important;    
 }
 
 #addBtn {
