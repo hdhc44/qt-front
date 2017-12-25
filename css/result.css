@@ -4,14 +4,12 @@
 
 .navbar-start input {
     width: 400px;
+    border-radius: 25px;
 }
 .container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    height:100%;
+
 }
 .titles{
     height: 80px;
@@ -29,8 +27,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 50px;
     width: 100%;
     padding: 20px;
 }
@@ -41,33 +37,31 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    position: relative;
+    width: 100%;
 }
-.card{
-    width: 380px;
+
+
+
+.nav{
+    position: relative;
+    top:20px;
+}
+#pagination{
+    position: relative;
+    top: 30px;
+    margin: 20px;
+    justify-content: center;
+}
+.sort{
     margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 238px;
-}
-.card-content{
-    padding: 0px!important;
-}
-.content{
-    margin-top: 15px;    
-    padding-left: 10px;
-    padding-right: 10px; 
-    height: 102px;   
-}
-.card-footer-item i.fa {
-    margin-right: 10px;
-}
-.custom{
-    border-radius: 25px!important;    
-}
-.tag{
-    margin: 3px;
-}
-.substance{
-    display: block;
-    height: 43px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+@media screen and (max-width:420px) {
+    .card {
+        flex-basis: 100% auto;
+    }
+
 }

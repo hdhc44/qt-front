@@ -3,7 +3,6 @@
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    height: 238px;
 }
 .card-content{
     padding: 0px!important;
@@ -12,20 +11,21 @@
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 102px;
 }
 .card-footer-item i.fa {
     margin-right: 10px;
 }
+
 .tag{
     margin: 3px;
 }
 .substance{
     display: block;
-    height: 43px;
 }
+
 @media screen and (max-width:420px) {
     .card {
         flex-basis: 100% auto;
     }
+
 }
