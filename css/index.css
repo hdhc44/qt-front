@@ -43,8 +43,12 @@ html,body {
 .content{
     margin-top: 15px;
     padding-left: 10px;
+<<<<<<< HEAD
     padding-right: 10px;
     height: 102px;
+=======
+    padding-right: 10px; 
+>>>>>>> e26ddaf9c4edd01e86dd51502aa1d63015f2a260
 }
 .card-footer-item i.fa {
     margin-right: 10px;
@@ -90,9 +94,13 @@ html,body {
     .card {
         flex-basis: 100% auto;
     }
+<<<<<<< HEAD
     #pagination{
       width: 50%;
       bottom: 30px;
     }
 
+=======
+    
+>>>>>>> e26ddaf9c4edd01e86dd51502aa1d63015f2a260
 }
