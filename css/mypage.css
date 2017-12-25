@@ -33,7 +33,6 @@ html,body {
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    height: 238px;
 }
 .card-content{
     padding: 0px!important;
@@ -86,8 +85,8 @@ html,body {
 }
 .userinfo {
     width:250px;
-    height:250px;
-    margin: 10px;
+    height:200px;
+    margin: 5px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -95,6 +94,9 @@ html,body {
     flex-direction: column;
 }
 
+.column{
+    width:100px;
+}
 @media screen and (max-width:420px) {
     .card {
         flex-basis: 100% auto;
