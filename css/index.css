@@ -36,7 +36,6 @@ html,body {
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    height: 238px;
 }
 .card-content{
     padding: 0px!important;
@@ -45,7 +44,6 @@ html,body {
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 102px;
 }
 .card-footer-item i.fa {
     margin-right: 10px;
@@ -81,7 +79,6 @@ html,body {
 }
 .substance{
     display: block;
-    height: 43px;
 }
 #addBtn:hover {
     background-color: white;
